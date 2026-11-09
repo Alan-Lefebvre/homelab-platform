@@ -1,0 +1,21 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+crash.log
+
+# Secrets
+.env
+*.pem
+*.key
+kubeconfig*
+.vault_pass*
+
+# Python
+__pycache__/
+.venv/
+
+# Divers
+.DS_Store
